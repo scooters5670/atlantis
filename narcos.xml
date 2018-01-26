@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <item>
-<title>[B][COLOR white]TEMPORADA 1[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<title>[B][COLOR white]TEMPORADA 1,2[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -11,7 +11,7 @@
 <fanart>https://s-media-cache-ak0.pinimg.com/originals/30/4a/38/304a38fcdf0adac915581c70e514b613.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/chicho306/narcos-t1-47821</page>
+<page>Name:"Narcos T1,T2 [mkv] [Castellano]" url:"http://diskokosmiko.mx/yokesesss/narcos-completa-48761" img:"https://i.pinimg.com/originals/bf/4a/17/bf4a176a07d6ce09d4d392ae9c562d8c.png"; server:"http://diskokosmiko.mx"</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
