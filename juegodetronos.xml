@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <item>
-<title>[B][COLOR white]TEMPORADA 7[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<title>[B][COLOR white]TEMPORADAS 1[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -11,7 +11,155 @@
 <fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/moipera/jdt-t7-hd-79780</page>
+<page>http://diskokosmiko.mx/seri5/got1-29229/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.posters.cz/image/350/poster/juego-de-tronos-jon-snow-i30603.jpg</thumbnail>
+<fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADAS 2[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://static.posters.cz/image/350/poster/juego-de-tronos-jon-snow-i30603.jpg</thumbnail>
+<fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/seri5/got2-29228/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.posters.cz/image/350/poster/juego-de-tronos-jon-snow-i30603.jpg</thumbnail>
+<fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADAS 3[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://static.posters.cz/image/350/poster/juego-de-tronos-jon-snow-i30603.jpg</thumbnail>
+<fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/seri5/got3-29227/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.posters.cz/image/350/poster/juego-de-tronos-jon-snow-i30603.jpg</thumbnail>
+<fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADAS 4[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://static.posters.cz/image/350/poster/juego-de-tronos-jon-snow-i30603.jpg</thumbnail>
+<fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/seri5/got4-29226/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.posters.cz/image/350/poster/juego-de-tronos-jon-snow-i30603.jpg</thumbnail>
+<fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADAS 5[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://static.posters.cz/image/350/poster/juego-de-tronos-jon-snow-i30603.jpg</thumbnail>
+<fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page></page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -73,43 +221,7 @@
 <thumbnail>https://static.posters.cz/image/350/poster/juego-de-tronos-jon-snow-i30603.jpg</thumbnail>
 <fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
 </item>
-<item>
-<title>[B][COLOR white]TEMPORADAS 1-7[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param3]</title>
-        <link>$doregex[getUrl]</link>
-<thumbnail>https://static.posters.cz/image/350/poster/juego-de-tronos-jon-snow-i30603.jpg</thumbnail>
-<fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/trivianita/juego-de-tronos-1-2-3-4-5-6-7-75133/list,1,3</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://static.posters.cz/image/350/poster/juego-de-tronos-jon-snow-i30603.jpg</thumbnail>
-<fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
-</item>
+
 <item>
 <title>[B][COLOR white]TEMPORADA 1[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
@@ -332,3 +444,42 @@
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Game_of_Thrones_Season_6.jpeg/220px-Game_of_Thrones_Season_6.jpeg</thumbnail>
 <fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
 </item>
+<item>
+<title>[B][COLOR white]TEMPORADA 1-7[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Game_of_Thrones_Season_6.jpeg/220px-Game_of_Thrones_Season_6.jpeg</thumbnail>
+<fanart>http://blogs.tn.com.ar/nerds/files/2017/01/gameofthrones3_246960.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jarl1970/juego-de-tronos-96576/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Game_of_Thrones_Season_6.jpeg/220px-Game_of_Thrones_Season_6.jpeg</thumbnail>
+<fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
+</item>
+
+
