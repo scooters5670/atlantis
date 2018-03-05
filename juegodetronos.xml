@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <item>
-<title>[B][COLOR white]TEMPORADAS 1[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<title>[B][COLOR white]TEMPORADAS 1[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -37,7 +37,7 @@
 <fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
 </item>
 <item>
-<title>[B][COLOR white]TEMPORADAS 2[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<title>[B][COLOR white]TEMPORADAS 2[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -74,7 +74,7 @@
 <fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
 </item>
 <item>
-<title>[B][COLOR white]TEMPORADAS 3[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<title>[B][COLOR white]TEMPORADAS 3[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -111,7 +111,7 @@
 <fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
 </item>
 <item>
-<title>[B][COLOR white]TEMPORADAS 4[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<title>[B][COLOR white]TEMPORADAS 4[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -148,7 +148,7 @@
 <fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
 </item>
 <item>
-<title>[B][COLOR white]TEMPORADAS 5[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<title>[B][COLOR white]TEMPORADAS 5[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -185,7 +185,7 @@
 <fanart>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/05/24/14956198355048.jpg</fanart>
 </item>
 <item>
-<title>[B][COLOR white]TEMPORADAS 1-7[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<title>[B][COLOR white]TEMPORADAS 1-7[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
